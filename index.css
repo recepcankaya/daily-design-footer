@@ -1,0 +1,81 @@
+:root {
+  --main-font-color: #CBD2DC;
+  --bg-hover-color: #377180af;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #647494;
+}
+.footer-container {
+  background-color: #314373;
+  width: 100%;
+  height: 300px;
+  position: fixed;
+  bottom: 0;
+}
+div a {
+  text-decoration: none;
+  color: var(--main-font-color);
+}
+h4 {
+  margin-bottom: 10px;
+  color: var(--main-font-color);
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Left-side */
+
+.left-side a:hover {
+  background-color: var(--bg-hover-color);
+  color: var(--main-font-color);
+  padding: 5px;
+  border-radius: 5px;
+}
+.left-side li,
+.center div {
+  margin-top: 5px;
+}
+
+/* Center */
+.center a:hover {
+  background-color: var(--bg-hover-color);
+  color: var(--main-font-color);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Right side */
+.right-side a:hover {
+  color: unset;
+}
+.bi {
+  font-size: 2.5rem;
+}
+.contact-list li,
+.last-container li {
+  display: inline;
+}
+.contact-list li:not(.facebook) {
+  margin-left: 25px;
+}
+
+/* Bottom */
+.last-container li:not(.conditions) {
+  margin-left: 25px;
+}
+.last-container a {
+  color: #8a8b90;
+  font-weight: bold;
+}
+.last-container a:hover {
+  background-color: unset;
+  color: var(--main-font-color);
+}
+.last-container {
+  text-align: center;
+}
